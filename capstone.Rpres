@@ -1,0 +1,41 @@
+Word Prediction: Coursera Data Science Capstone Project
+========================================================
+author: 
+date: June 5, 2015
+autosize: true
+
+
+Introduction
+========================================================
+
+<small>The Coursera Data Science Specialization Capstone project from Johns Hopkins University (JHU) allows 
+students to create a usable public data product that can show their skills to potential 
+employers. For this iteration of the class, JHU partnered with SwiftKey 
+(http://swiftkey.com/en/) to apply data science in the area of **natural language processing**.
+sThe objective of this project was to build a working predictive text model. </small>
+
+Algorithm
+========================================================
+
+- The algorithm developed to predict the next word in a user-entered text string was based on a 
+   classic **N-gram** model. 
+- The model was trained using a subset of cleaned text data from various sources on internet
+    (blogs, twitter, and news). 
+- Finally, a unigrams, bigrams, and trigrams were computed was fitted using the maximum likelihood  estimator(MLE).
+
+The Shiny Application
+========================================================
+
+- A Shiny (http://shiny.rstudio.com/) application based on the algorithm was developed. 
+- This applications accepts a phrase as input and suggests word completion from the unigrams, 
+  and predicts the most likely next word based on the linear interpolation of trigrams, bigrams, and unigrams. 
+- The web-based application can be found <a href="https://dickoa.shinyapps.io/courseracapstone/"> here</a>. 
+- The source files for this application, the data creation, and this presentation can be found <a    href="https://github.com/dickoa/courseracapstone"> here</a>. 
+
+
+
+Using the Application
+========================================================
+
+- The user begins just by typing some text, typically a sentence in the box.
+- When the predict next word button is pressed the predicted next word in the phrase is shown.</small>

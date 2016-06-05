@@ -1,1 +1,2 @@
 * Coursera Capstone final project
+This repository contains the code (Shiny Apps and model) for the final project for the Coursera Data Science Capstone project. 
